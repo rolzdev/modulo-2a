@@ -75,7 +75,7 @@ fieldset label {
 
 input, textarea {
 
-    width: calc(100% - 18px); /* Ancho del 100% menos el padding y borde */
+    width: calc(100% - 11px); /* Ancho del 100% menos el padding y borde */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
