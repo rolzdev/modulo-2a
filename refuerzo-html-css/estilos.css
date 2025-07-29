@@ -90,7 +90,7 @@ textarea{
 }
 
 button[type="submit"] {
-    background-color: #007bff; /* Color de botón azul */
+    background-color: #69112c; /* Color de botón azul */
     color: white;
     padding: 12px 20px;
     border: none;
@@ -103,7 +103,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #8a4151;
 }
 
 footer {
