@@ -47,115 +47,118 @@
         </div>
     </nav>
                 
-    <main class="container my-5">
+    <main class="container mt-4 scrollable-content">
+        <div class="row">
+            <section id="intro" class="col-md-7">
+                <h2 class="text-center mb-4">Geoinformática Aplicada: Inteligencia Territorial con Tecnología Abierta</h2>
+                <p>
+                    En la nueva era digital, la <strong>Geoinformática</strong> se posiciona como una herramienta estratégica que transforma datos geoespaciales en conocimiento útil para la toma de decisiones.
+                    Combinamos lo mejor de los <strong>Sistemas de Información Geográfica (SIG)</strong>, la <strong>tecnología de drones</strong> y el poder del <strong>software libre</strong> para ofrecer soluciones integrales, precisas y sostenibles.
+                </p>
+            </section>
 
-        <section id="intro" class="mb-5">
-            <h2 class="text-center mb-4">Geoinformática Aplicada: Inteligencia Territorial con Tecnología Abierta</h2>
-            <p>
-                En la nueva era digital, la <strong>Geoinformática</strong> se posiciona como una herramienta estratégica que transforma datos geoespaciales en conocimiento útil para la toma de decisiones.
-                Combinamos lo mejor de los <strong>Sistemas de Información Geográfica (SIG)</strong>, la <strong>tecnología de drones</strong> y el poder del <strong>software libre</strong> para ofrecer soluciones integrales, precisas y sostenibles.
-            </p>
-        </section>
-
-        <section class="mb-5">
-            <div id="galeriaCarrusel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="Recursos/oblicua.png" class="d-block w-100" alt="Imagen 1" />
+            <section class="col-md-5">
+                <div id="galeriaCarrusel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Recursos/oblicua.png" class="d-block w-100" alt="Imagen 1" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Recursos/catastro.jpg" class="d-block w-100" alt="Imagen 2"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Recursos/foto.png" class="d-block w-100" alt="Imagen 3" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Recursos/lidar.png" class="d-block w-100" alt="Imagen 4"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Recursos/orto.png" class="d-block w-100" alt="Imagen 5" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Recursos/topo.jpg" class="d-block w-100" alt="Imagen 6"/>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="Recursos/catastro.jpg" class="d-block w-100" alt="Imagen 2"/>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="Recursos/foto.png" class="d-block w-100" alt="Imagen 3" />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="Recursos/lidar.png" class="d-block w-100" alt="Imagen 4"/>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="Recursos/orto.png" class="d-block w-100" alt="Imagen 5" />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="Recursos/topo.jpg" class="d-block w-100" alt="Imagen 6"/>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-            </div>
-        </section>
+            </section>
+            
+            <section id="drones" class="col-md-7">
+                <h2 class="mb-3">Captura avanzada con drones y sensores inteligentes</h2>
+                <p>
+                    Utilizando plataformas UAV (drones) equipadas con sensores ópticos y tecnología <strong>LiDAR</strong>, obtenemos información tridimensional del territorio con altísima precisión.
+                </p>
+                <ul>
+                    <li><strong>Ortofotos</strong> georreferenciadas y corregidas.</li>
+                    <li><strong>Nubes de puntos LiDAR</strong> y modelos digitales (MDT, MDS).</li>
+                    <li><strong>Curvas de nivel detalladas</strong> para planificación.</li>
+                    <li><strong>Datos catastrales</strong> actualizados e integrables.</li>
+                </ul>
+            </section>
 
-        <section id="drones" class="mb-5">
-            <h2 class="mb-3">Captura avanzada con drones y sensores inteligentes</h2>
-            <p>
-                Utilizando plataformas UAV (drones) equipadas con sensores ópticos y tecnología <strong>LiDAR</strong>, obtenemos información tridimensional del territorio con altísima precisión.
-            </p>
-            <ul>
-                <li><strong>Ortofotos</strong> georreferenciadas y corregidas.</li>
-                <li><strong>Nubes de puntos LiDAR</strong> y modelos digitales (MDT, MDS).</li>
-                <li><strong>Curvas de nivel detalladas</strong> para planificación.</li>
-                <li><strong>Datos catastrales</strong> actualizados e integrables.</li>
-            </ul>
-        </section>
+            <section id="sig" class="col-md-12">
+                <h2 class="mb-3">Procesamiento, análisis y visualización en plataformas SIG</h2>
+                <p>La información recolectada se gestiona con herramientas <strong>Open Source</strong> como:</p>
+                <ul>
+                    <li><strong>QGIS</strong>: análisis y visualización geoespacial.</li>
+                    <li><strong>GeoServer</strong> y <strong>MapServer</strong>: publicación mediante servicios web.</li>
+                    <li><strong>Linux</strong>: base robusta para servidores geoespaciales.</li>
+                </ul>
+            </section>
 
-        <section id="sig" class="mb-5">
-            <h2 class="mb-3">Procesamiento, análisis y visualización en plataformas SIG</h2>
-            <p>La información recolectada se gestiona con herramientas <strong>Open Source</strong> como:</p>
-            <ul>
-                <li><strong>QGIS</strong>: análisis y visualización geoespacial.</li>
-                <li><strong>GeoServer</strong> y <strong>MapServer</strong>: publicación mediante servicios web.</li>
-                <li><strong>Linux</strong>: base robusta para servidores geoespaciales.</li>
-            </ul>
-        </section>
+            <section id="ogc" class="col-md-12">
+                <h2 class="mb-3">Interoperabilidad y estándares OGC</h2>
+                <p>Seguimos protocolos del <strong>Open Geospatial Consortium (OGC)</strong> para garantizar integración con plataformas SIG.</p>
+                <ul>
+                    <li><strong>WMS</strong> (Web Map Service)</li>
+                    <li><strong>WFS</strong> (Web Feature Service)</li>
+                    <li><strong>WCS</strong> (Web Coverage Service)</li>
+                    <li><strong>WMTS</strong>, <strong>CSW</strong> y más</li>
+                </ul>
+            </section>
 
-        <section id="ogc" class="mb-5">
-            <h2 class="mb-3">Interoperabilidad y estándares OGC</h2>
-            <p>Seguimos protocolos del <strong>Open Geospatial Consortium (OGC)</strong> para garantizar integración con plataformas SIG.</p>
-            <ul>
-                <li><strong>WMS</strong> (Web Map Service)</li>
-                <li><strong>WFS</strong> (Web Feature Service)</li>
-                <li><strong>WCS</strong> (Web Coverage Service)</li>
-                <li><strong>WMTS</strong>, <strong>CSW</strong> y más</li>
-            </ul>
-        </section>
+            <section id="web" class="col-md-12">
+                <h2 class="mb-3">Desarrollo Web Geoespacial</h2>
+                <p>Creamos plataformas web para visualización y análisis de datos geoespaciales:</p>
+                <ul>
+                    <li>Mapas interactivos y capas temáticas.</li>
+                    <li>Filtros, búsquedas, descargas de datos.</li>
+                    <li>Acceso desde cualquier dispositivo, interfaces modernas.</li>
+                </ul>
+                <p>
+                    Tecnologías utilizadas: <strong>Leaflet</strong>, <strong>OpenLayers</strong>, <strong>PostGIS</strong>, <strong>Python</strong>, <strong>Node.js</strong>, y más.
+                </p>
+            </section>
 
-        <section id="web" class="mb-5">
-            <h2 class="mb-3">Desarrollo Web Geoespacial</h2>
-            <p>Creamos plataformas web para visualización y análisis de datos geoespaciales:</p>
-            <ul>
-                <li>Mapas interactivos y capas temáticas.</li>
-                <li>Filtros, búsquedas, descargas de datos.</li>
-                <li>Acceso desde cualquier dispositivo, interfaces modernas.</li>
-            </ul>
-            <p>
-                Tecnologías utilizadas: <strong>Leaflet</strong>, <strong>OpenLayers</strong>, <strong>PostGIS</strong>, <strong>Python</strong>, <strong>Node.js</strong>, y más.
-            </p>
-        </section>
-
-        <section id="formulario" class="mb-5">
-            <h2 class="mb-3">¿Quieres conocer más?</h2>
-            <p>Si deseas saber más sobre Geoinformática, contáctanos:</p>
-            <form action="#" method="post" class="row g-3">
-                <div class="col-md-6">
-                    <label for="name" class="form-label">Nombre:</label>
-                    <input type="text" class="form-control" id="name" name="nombre" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="email" class="form-label">Email:</label>
-                    <input type="email" class="form-control" id="email" name="email">
-                </div>
-                <div class="col-12">
-                    <label for="mensaje" class="form-label">Mensaje:</label>
-                    <textarea class="form-control" id="mensaje" name="mensaje" rows="6"></textarea>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-                </div>
-            </form>
-        </section>
+            <section id="formulario" class="col-md-12">
+                <h2 class="mb-3">¿Quieres conocer más?</h2>
+                <p>Si deseas saber más sobre Geoinformática, contáctanos:</p>
+                <form action="#" method="post" class="row g-3">
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="name" name="nombre" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="col-12">
+                        <label for="mensaje" class="form-label">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="6"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+        
+        
 
     </main>
 
