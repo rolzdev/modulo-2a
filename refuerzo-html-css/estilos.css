@@ -22,7 +22,6 @@ header {
 }
 
 main {
-    
     max-width: 960px; /* Ancho máximo para el contenido */
     margin: 20px auto; /* Centrar el main y darle margen arriba/abajo */
     padding: 20px;
@@ -32,7 +31,7 @@ main {
 }
 
 .Galeria {
-    /*display: flex;  Permite que las imágenes se coloquen en fila */
+    display: flex; /* Permite que las imágenes se coloquen en fila */
     justify-content: center; /* Centra las imágenes horizontalmente */
     flex-wrap: wrap; /* Permite que las imágenes salten a la siguiente línea si no caben */
     gap: 20px; /* Espacio entre las imágenes */
