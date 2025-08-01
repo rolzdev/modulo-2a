@@ -3,6 +3,7 @@ header{
     background-size: cover; /* Ensures the image covers the entire header area */
     background-position: center center; /* Centers the image within the header */
     background-repeat: no-repeat;
+    height: 200px;
 }
 
 button[type="submit"] {
@@ -33,4 +34,11 @@ footer {
 
 section {
   scroll-margin-top: 80px; 
+}
+
+@media (max-width: 600px) {
+    header {
+      padding: 0;
+      height: 100px;
+    }
 }
