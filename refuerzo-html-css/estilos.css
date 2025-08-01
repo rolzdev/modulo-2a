@@ -1,8 +1,4 @@
 body {
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows:repeat(3,1fr);
-    gap:10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: aliceblue;
     color: rgb(29, 3, 3);
