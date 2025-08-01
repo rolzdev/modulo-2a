@@ -47,9 +47,9 @@ button[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
-    transition: background-color 0.3s ease; /* Transición suave para el botón */
-    display: block; /* Para que ocupe su propia línea */
-    margin: 20px auto 0; /* Centrar el botón */
+    transition: background-color 0.3s ease; 
+    display: block; 
+    margin: 20px auto 0;
 }
 
 button[type="submit"]:hover {
